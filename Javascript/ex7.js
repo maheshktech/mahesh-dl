@@ -6,7 +6,7 @@ console.log(l1.indexOf(10))
 console.log(l1.lastIndexOf(10))
 console.log(l1.indexOf(10,3))
 console.log(l1.indexOf(20,5))
-
+  
 //contact
 l1=[10,20]
 l2=[30,40]

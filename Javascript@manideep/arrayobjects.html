@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Array of Objects</title>
+</head>
+<body>
+
+<!-- This is where the content will be displayed -->
+<div id="content"></div>
+
+<div id="source"></div>
+
+
+<script>
+    // Sample array of objects
+    const dataArray = [
+      { name: 'John', age: 25 },
+      { name: 'Alice', age: 30 },
+    ];
+
+    // Get the element where you want to display the content
+    const contentContainer = document.getElementById('content');
+
+    // Create a new unordered list element
+    const ul = document.createElement('ul');
+
+    // Display array of objects using a for loop
+    for (let i = 0; i < dataArray.length; i++) {
+        const obj = dataArray[i];
+
+        // Create a list item for each object
+        const li = document.createElement('li');
+        li.textContent = Name: ${obj.name},  ${obj.age};
+
+        
+        ul.appendChild(li);
+    }
+
+    // Append the unordered list to the content container
+    contentContainer.appendChild(ul);
+
+
+    var h1Element=document.createElement("h1");
+    h1Element.textContent="mahesh babu"
+  var container
+    // console.log(h1Element);
+    // document.body.appendChild(h1Element);
+
+var src=document.getElementById("source");
+
+src.appendChild(h1Element);
+</script>
+
+</body>
+</html>

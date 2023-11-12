@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Internship Form</title>
+
+    <style>
+        h2{
+            color:aqua
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <h2 style="text-align: center;">INTERNSHIP  PROGRAMMING  CONDUCTED  ON  THE  IOT (APPLICATIONS)</h2>
+
+    <fieldset>
+        <legend>Please  Give Valid  Information</legend>
+    <form>
+        <p>Enter Your Name:</p>
+        <input type="text" name="Username" placeholder="Enter Your Name">
+        <p>Enter Your Email:</p>
+        <input type="Email" name="Email" placeholder="Enter Your Email">
+        <p>Enter Your Password:</p>
+        <input type="password" name="password" placeholder="Password">
+        <p>Enter Your Age</p>
+        <input type="number" name="Age" placeholder="Your Age"> <br> <br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="Gender" name="Gender" value="male">male 
+        <input type="radio" id="Gender" name="Gender" value="female"> Female <br> <br>
+        <p>About  Yourself:</p>
+        <textarea rows="10" cols="50"></textarea> <br> <br>
+        <p>Do You Know?</p>
+        <input type="checkbox" name="c" value="c"> C <br>
+        <input type="checkbox" name="Java" value="Java"> Java <br> 
+        <input type="checkbox" name="python" value="python"> Python <br> 
+        <input type="checkbox" name="Javascript" value="Javadcript"> Javascript <br>
+        <p>How Many Months You Participate In our Program?</p>
+        <select name="Dropdown">
+            <option value="3 Months">3 Months</option>
+            <option value="5 Months">5 Months</option>
+            <option value="8 Months" selected>8 Months</option>
+            <option value="10 Months">10 Months</option>
+            <option value="11 Months">11 Months</option>
+        </select> <br> <br>
+        
+        <p>Upload Your Resume:</p>
+        <input type="file" name="fileupload" accept="image/*"> <br> <br>
+        <input type="button" name="Submit" value="Submit" onclick="submitData()">
+    </form>
+</fieldset>
+
+
+
+
+<script>
+    function submitData() {
+        window.alert('Submitted data successfully uploaded ')
+    }
+
+</script>
+    
+</body>
+</html>

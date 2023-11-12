@@ -8,10 +8,10 @@
 
 
 // // includes
-// var l1=[10,20,30,40,50]
-// console.log(l1.includes(10))
-// console.log(l1.includes(20))
-// console.log(l1.includes(80))
+var l1=[10,20,30,40,50]
+ console.log(l1.includes(10))
+ console.log(l1.includes(20))
+ console.log(l1.includes(80))
 
 // // pop()
 // var l1=[10,20,30,40,50]
