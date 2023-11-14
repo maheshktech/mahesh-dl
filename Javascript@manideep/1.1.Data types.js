@@ -4,12 +4,12 @@
 //userdefined data types ='object, array,function'
 
 //1.
-//string data type:
+//string data type:(collection of the charectors & sequence of the charectors)
 var userName = "Mahesbbabu";
 console.log(userName);
 console.log(typeof userName)
 
-//boolean data type:
+//boolean data type:(true & false)
 var maheshbabu= true;
 console.log(maheshbabu);
 console.log(typeof maheshbabu)
