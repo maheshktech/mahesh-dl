@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .name{
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
-    <h1 id="mail">maheshbabu@gmail.com</h1>
+    <h1 id="mail"></h1>
 
     <script>
         document.getElementById('mail')
-        document.getElementById('mail').innerHtml=('sasidhar@gamil.com');
-
+        document.getElementById('mail').innerHTML='sasidhar@gamil.com';
+        
+        var a=document.createElement('div');  //<div class=name >
+        a.classList.add('name');      
+        var b=document.createElement('h1');     //<h1>kamidi mahesh babu
+        b.innerHTML='Kamidi Maheshbabu';
+        b.style.color='green';
+        // b.setAttribute('color','green');
+        a.appendChild(b);                       //</h1>
+        mail.appendChild(a);                     //</div>
     </script>
 
     

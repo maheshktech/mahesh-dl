@@ -38,10 +38,11 @@ mahesh[3]=8;
 console.log(mahesh)
 
 //object: collection of the key-values pairs.
+// irregular date then go for the object data type.
 var valueInfo={
              name: 'mahesh',
              designation: 'software engineer',
-             salary: '50000'
+             salary: '50000',
 
              }
  
